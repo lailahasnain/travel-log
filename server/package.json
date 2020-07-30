@@ -2,12 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://lailahasnain.github.io/travel-log/",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "nodemon src/index.js",
     "lint": "eslint src/"
   },
